@@ -8,7 +8,7 @@ Over all flow of the POC (High-level architecture):
 ![High-level Architecture](https://i.imgur.com/y9QXksC.png)
 
 ### Kafka Installation
-1. Download the kafka from [here.](https://www.apache.org/dyn/closer.cgi?path=/kafka/) After downloading, unzip the file and open the kafka directory in the terminal.
+1. Download Apache Kafka from [here.](https://www.apache.org/dyn/closer.cgi?path=/kafka/) After downloading, unzip the file and open the kafka directory in the terminal.
 
 2. Start zookeeper server:
 ```bin/zookeeper-server-start.sh config/zookeeper.properties```
