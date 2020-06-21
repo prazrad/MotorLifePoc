@@ -1,0 +1,7 @@
+[Kafka]
+bootstrapSvr = localhost:9092
+
+[MongoDB]
+mongoConn = mongodb://localhost:27017/
+db = nanoprecise
+coll = sensorRaw
