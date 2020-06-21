@@ -1,5 +1,5 @@
 # MotorLifePoc
-POC to determine the life of Motor base on the sensor data
+POC to determine the life of Motor based on the sensor data
 
 ### Python Required Lib - configparser
 ```pip3 install configparser```
