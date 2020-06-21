@@ -1,6 +1,12 @@
 # MotorLifePoc
 POC to determine the life of motor based on the sensor data
 
+This is an simulated experiement to find the remaining life of indusrial equipments. In real world it depends up on various industrial factors and data collected by the sensor.
+
+Over all flow of the POC (High-level architecture):
+
+![High-level Architecture](https://i.imgur.com/y9QXksC.png)
+
 ### Python Required Lib - configparser
 ```pip3 install configparser```
 
