@@ -16,6 +16,6 @@ Update the connection parameters of Kafka and MongoDB in the **config.txt** file
 Parameter "sensorRaw" is the kafka topic name.
 
 ### Results
-The data generated is pupulated under the mongoDB collection along with the processed value **life** of each entry with motorId. Using the data analytics and visualization tools we can view the data for health monitoring and checking the life of motors.
+The data generated is populated under the mongoDB collection along with the processed value **life** of each entry with motorId. Using the data analytics and visualization tools we can view the data for health monitoring and checking the life of motors.
 
 
