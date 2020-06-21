@@ -13,7 +13,7 @@ Update the connection parameters of Kafka and MongoDB in the **config.txt** file
 ### Start Spark Streaming Job
 ```./spark-submit --packages org.apache.spark:spark-streaming-kafka-0-8_2.11:2.0.2 kafka_consumer_spark_stream.py localhost:9092 sensoRaw```
 
-Parameter "sensoRaw" is the kafka topic name.
+Parameter "sensorRaw" is the kafka topic name.
 
 ### Results
 The data generated is pupulated under the mongoDB collection along with the processed value **life** of each entry with motorId. Using the data analytics and visualization tools we can view the data for health monitoring and checking the life of motors.
