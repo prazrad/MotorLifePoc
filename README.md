@@ -11,7 +11,7 @@ Update the connection parameters of Kafka and MongoDB in the **config.txt** file
 ```python3 data_gen_kafka_producer.py```
 
 ### Start Spark Streaming Job
-```./spark-submit --packages org.apache.spark:spark-streaming-kafka-0-8_2.11:2.0.2 kafka_consumer_spark_stream.py localhost:9092 sensoRaw```
+```./spark-submit --packages org.apache.spark:spark-streaming-kafka-0-8_2.11:2.0.2 kafka_consumer_spark_stream.py localhost:9092 sensorRaw```
 
 Parameter "sensorRaw" is the kafka topic name.
 
